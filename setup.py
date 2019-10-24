@@ -45,7 +45,7 @@ def read(fname):
 
 
 setup(
-    name='marshmallow',
+    name='gain-marshmallow',
     version=find_version('src/marshmallow/__init__.py'),
     description=(
         'A lightweight library for converting complex '
@@ -54,7 +54,7 @@ setup(
     long_description=read('README.rst'),
     author='Steven Loria',
     author_email='sloria1@gmail.com',
-    url='https://github.com/marshmallow-code/marshmallow',
+    url='https://github.com/GainCompliance/marshmallow',
     packages=find_packages('src', exclude=('test*', 'examples')),
     package_dir={'': 'src'},
     include_package_data=True,
